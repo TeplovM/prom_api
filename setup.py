@@ -11,14 +11,13 @@ def get_install_requires():
 
 
 setuptools.setup(
-    name="prometheus-api-client",
-    version="0.0.2b4",
-    author="Anand Sanmukhani",
-    author_email="asanmukh@redhat.com",
+    name="prom_mt",
+    version="0.0.1",
+    author="M T",
     description="A small python api to collect data from prometheus",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AICoE/prometheus-api-client-python",
+    url="https://github.com/TeplovM/prom_api",
     install_requires=get_install_requires(),
     packages=setuptools.find_packages(),
     classifiers=[
