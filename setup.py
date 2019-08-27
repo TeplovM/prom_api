@@ -10,10 +10,11 @@ def get_install_requires():
         return [req.split(" ", maxsplit=1)[0] for req in res if req]
 
 
-setuptools.setup(
-    name="prom_mt",
-    version="0.0.1",
-    author="M T",
+ssetuptools.setup(
+    name="prometheus-api-client",
+    version="0.0.2b4",
+    author="Anand Sanmukhani",
+    author_email="asanmukh@redhat.com",
     description="A small python api to collect data from prometheus",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,3 +27,4 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
+© 2019 GitHub, Inc.
