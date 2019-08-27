@@ -11,7 +11,7 @@ def get_install_requires():
 
 
 ssetuptools.setup(
-    name="prometheus-api-client",
+    name="prom_mt",
     version="0.0.2b4",
     author="Anand Sanmukhani",
     author_email="asanmukh@redhat.com",
