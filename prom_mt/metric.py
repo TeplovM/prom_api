@@ -66,7 +66,7 @@ class Metric:
             self.metric_values = metric.metric_values
             self.oldest_data_datetime = oldest_data_datetime
         else:
-            self.metric_name = metric["metric"]
+            self.metric_name = str(metric["metric"])
             self.label_config = deepcopy(metric["metric"])
             self.oldest_data_datetime = oldest_data_datetime
             
