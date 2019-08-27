@@ -10,7 +10,7 @@ def get_install_requires():
         return [req.split(" ", maxsplit=1)[0] for req in res if req]
 
 
-ssetuptools.setup(
+setuptools.setup(
     name="prom_mt",
     version="0.0.2b4",
     author="Anand Sanmukhani",
