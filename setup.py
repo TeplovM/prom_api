@@ -27,4 +27,4 @@ ssetuptools.setup(
         "Operating System :: OS Independent",
     ],
 )
-© 2019 GitHub, Inc.
+
